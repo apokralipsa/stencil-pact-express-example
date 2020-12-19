@@ -1,6 +1,6 @@
 import { Component, h } from '@stencil/core';
 import { Prop, State } from '../../../dist/types/stencil-public-runtime';
-import { Todo } from '../../model/todo';
+import { Todo } from 'model';
 
 @Component({
   tag: 'todo-list',

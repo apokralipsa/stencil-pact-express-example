@@ -1,0 +1,25 @@
+{
+  "name": "model",
+  "version": "0.0.1",
+  "private": true,
+  "description": "> TODO: description",
+  "author": "Jakub Stawiarski <jakub.stawiarski@vattenfall.com>",
+  "homepage": "https://github.com/apokralipsa/stencil-pact-express-example#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apokralipsa/stencil-pact-express-example.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "pretest": "npm run build",
+    "test": "echo \"No unit tests for the model for now\""
+  },
+  "bugs": {
+    "url": "https://github.com/apokralipsa/stencil-pact-express-example/issues"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}

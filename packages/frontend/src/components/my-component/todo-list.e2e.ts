@@ -1,6 +1,6 @@
 import { newE2EPage } from '@stencil/core/testing';
 import { pactWith } from 'jest-pact';
-import { Todo } from '../../model/todo';
+import { Todo } from 'model';
 
 pactWith({ consumer: 'frontend', provider: 'backend' }, provider => {
   describe('todo-list', () => {
