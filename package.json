@@ -1,0 +1,13 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "prettier": "^2.2.1"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap --hoist",
+    "test": "lerna run test"
+  },
+  "license": "MIT"
+}

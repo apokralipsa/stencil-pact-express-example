@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Jakub Stawiarski <jakub.stawiarski@vattenfall.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "prestart": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest --rootDir src"
+  },
+  "devDependencies": {
+    "typescript": "4.1.3",
+    "@types/jest": "^26.0.15",
+    "jest": "^26.6.3",
+    "jest-cli": "^26.6.3",
+    "@pact-foundation/pact": "^9.13.0",
+    "ts-jest": "^26.4.4",
+    "@types/cors": "^2.8.9",
+    "frontend": "^0.0.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "cors": "^2.8.5"
+  }
+}
