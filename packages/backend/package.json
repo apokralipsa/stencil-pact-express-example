@@ -2,10 +2,6 @@
   "name": "backend",
   "version": "0.0.0",
   "private": true,
-  "description": "> TODO: description",
-  "author": "Jakub Stawiarski <jakub.stawiarski@vattenfall.com>",
-  "homepage": "",
-  "license": "MIT",
   "main": "dist/index.js",
   "files": [
     "src"

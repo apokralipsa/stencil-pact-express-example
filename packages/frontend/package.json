@@ -2,7 +2,6 @@
   "name": "frontend",
   "version": "0.0.1",
   "private": true,
-  "description": "Stencil Component Starter",
   "main": "dist/index.cjs.js",
   "module": "dist/custom-elements/index.js",
   "es2015": "dist/esm/index.mjs",
@@ -34,6 +33,5 @@
     "puppeteer": "^5.4.1",
     "@pact-foundation/pact": "^9.13.0",
     "jest-pact": "^0.8.1"
-  },
-  "license": "MIT"
+  }
 }
