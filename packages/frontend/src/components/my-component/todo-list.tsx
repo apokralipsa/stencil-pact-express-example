@@ -1,5 +1,4 @@
-import { Component, h } from '@stencil/core';
-import { Prop, State } from '../../../dist/types/stencil-public-runtime';
+import { Component, h, Prop, State } from '@stencil/core';
 import { Todo } from 'model';
 
 @Component({
